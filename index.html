@@ -1,31 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css" />
-    <title> Hello </title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/stylesheet.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1f3d2d1db1.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
     <header>
-      <nav>
-          <a href="#"> Home </a>
-          <a href="#"> About me </a>
-          <a href="#"> Projects </a>
-          <a href="#"> Skills </a>
-      </nav>
+        <nav>
+            <a href="#about-me"> About me</a>
+            <a href="#projects"> Projects</a>
+            <a href="#skills"> Skills</a>
+            <a href="./html/contact.html"> Contact</a>
+        </nav>
     </header>
     <main>
-      <section class="intro">
-          <h1> Hey there! </h1> 
-          <h2> I'm Iuliana and I aspire to become a frontend developer. </h2>
-          <p> </p>
-      </section>
+        <section id="about-me">
+            <div class="about-me-text-container">
+            <h2> About me </h2>
+            <p> Hi! I'm Iuliana and I aspire to become a front-end developer. Once I realized my previous job doesn't suit me and didn't bring joy, I've started to look up on "How to become a front-end developer?"</p>
 
-  </main>
-    <script src="./js/script.js"></script>
-  </body>
+            <p>The internet has unlimited resources, but I've chosen to start by enrolling to the <a href="https://frontendmasters.com/bootcamp/" target="_blank"> Bootcamp</a> available on <a href="https://frontendmasters.com/bootcamp/" target="_blank"> Frondend Masters</a> website. This Bootcamp taught me the basic of HTML, CSS and JavaScript and after finishing it, I felt like I want to do this more. </p>
+            
+            <p>So, I've started to search for my next resource and decided to join the <a href="https://www.codecademy.com/learn/paths/front-end-engineer-career-path" target="_blank">Front-End Engineer Career Path</a> from <a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a>. It's a hard, but fun journey where I've learned a lot of interesting things including making this portfolio you're reading right now.</p>
+
+            <p>In my free time I love to play with my cat, Dora and cooking new recipes or baking delicious cakes. Another passion would be photography, but this requires a lot of time and travel, which are not possible for me right now. Furthermore, I'd love to learn to crochet and knit, hopefully I can do that in the near future.</p>
+
+        </div>
+
+        <div class="about-me-image-container">
+            <img class="cat-photo" src="./imgs/dora.png" alt="my cat Dora">
+            <p>
+                 Fun fact! I've been alive for
+                 <span id="time-container"> </span> seconds!
+            </p>
+
+        </div>
+            
+    </section>
+
+    <section id="projects">
+        <h2> Projects </h2>
+        <p> Quiz </p>
+        <p> Feed a star mole - Game </p>
+        <p> Swipper gallery </p>
+        <p> Get a dog by breed </p>
+        <p> Get a cat by breed </p>
+    </section>
+
+    <section id="skills">
+        <h2> Skills </h2>
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-js"></i>
+        <i class="fab fa-react"></i>
+        <i class="fab fa-git"></i>
+        <i class="fab fa-github"></i>
+    </section>
+
+    </main>
+    
+    <footer>
+        <p>Made with <span class="heart">♥</span> by Iuliana </p>
+    </footer> 
+
+  
+</body>
 </html>
