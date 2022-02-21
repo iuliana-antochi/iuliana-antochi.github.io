@@ -1,0 +1,58 @@
+/* Universal Style */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  font-family: Arial Helvetica, sans-serif;
+  margin: 3vw;
+  display: grid;
+  justify-content: center;
+}
+
+/* Header Style */
+@media only screen and (min-width: 600px) {
+  
+}
+header {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+nav a {
+  font-size: 2rem;
+  padding: 1vw;
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a:visited {
+  color: black;
+}
+
+/* Main Style */
+
+main {
+  display: grid;
+
+}
+
+/* Intro section Style */
+
+.intro h1 {
+  font-size: 3rem;
+}
+
+.intro h2 {
+  font-size: 2rem;
+}
