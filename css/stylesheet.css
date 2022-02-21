@@ -93,7 +93,7 @@
 
   a {
     font-weight: bold;
-    transition-property: color text-decoration;
+    transition-property: color;
     transition-duration: 0.3s;
 
   }
