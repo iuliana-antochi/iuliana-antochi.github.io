@@ -1,4 +1,3 @@
-
 /* Font styles */
 
 @font-face {
@@ -67,7 +66,7 @@
 
 /* Universal Style */
 
-* {
+  * {
     box-sizing: border-box;
   }
   
@@ -78,12 +77,13 @@
   body {
     font-family: 'Raleway', Arial Helvetica, sans-serif;
     margin: 2vw 12vw;
+    padding: 1vw;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    padding: 1rem 0;
+    margin: 1rem 0;
   }
 
 
@@ -124,31 +124,53 @@
     color: black;
   }
   
-  
   /* Main Style */
   
-#about-me {
+  #about-me {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 0;
+  }
+
+  .about-me-text-container {
+    line-height: 1.4rem;
+  }
+
+  .about-me-image-container {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: end;
+  }
+
+  #time-container {
+    font-weight: bold;
+  }
+
+  /* Project section */
+
+  .project-list, li {
+    list-style-type: circle;
+    margin: 0.7vw;
+    padding-bottom: 0.5vw;
+  }
+
+
+  /* Skills section */
+
+  .skills-container {
+    font-size: 2rem;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 0;
-}
+    padding: 1vw 0;
+  }
 
-.cat-photo {
-   /*  flex-basis: 40%;
-    /* height: 100%; */ 
-}
+  /* Footer */
 
-.about-me-text-container {
-  /* flex-basis: 60%; */
-  line-height: 1.4rem;
-}
+  footer {
+    text-align: center;
+    padding: 1vw;
+  }
 
-.about-me-image-container {
-  display: flex;
-  flex-flow: column wrap;
-  text-align: e;
-}
-
-#time-container {
-  font-weight: bold;
-}
+  .heart {
+    color:red;
+  }
