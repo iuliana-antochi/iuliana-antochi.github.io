@@ -86,17 +86,16 @@
     padding: 1rem 0;
   }
 
-  a {
-    font-weight: bold;
-  }
 
-  a:visited {
+  a:visited, a:link {
     color: black;
   }
 
   a {
+    font-weight: bold;
     transition-property: color text-decoration;
     transition-duration: 0.3s;
+
   }
 
   a:hover {
@@ -122,11 +121,9 @@
   
   nav a:hover {
     text-decoration: underline;
-  }
-  
-  nav a:visited {
     color: black;
   }
+  
   
   /* Main Style */
   
