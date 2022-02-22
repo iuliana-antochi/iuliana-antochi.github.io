@@ -93,8 +93,9 @@
   
   header {
     display: inline-flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     width: 100%;
+    align-items: center;
   }
   
   nav a {
@@ -109,6 +110,13 @@
     text-decoration: underline;
     color: black;
   }
+
+  .brand{
+    margin: 0;
+    font-size: 3rem;
+    cursor: grab;
+    z-index: 10;
+}
   
   /* About Me Section */
   
