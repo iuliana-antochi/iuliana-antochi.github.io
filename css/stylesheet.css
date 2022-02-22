@@ -1,4 +1,4 @@
-/* Font styles */
+/* Font faces */
 
 @font-face {
   font-family: 'Raleway';
@@ -63,7 +63,6 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-
 /* Universal Style */
 
   * {
@@ -89,9 +88,8 @@
   a:visited, a:link {
     color: black;
   }
-
  
-  /* Header Style */
+  /* Header Section */
   
   header {
     display: inline-flex;
@@ -115,18 +113,43 @@
   /* About Me Section */
   
   #about-me {
-      display: flex;
-      justify-content: space-between;
-      padding: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
   }
 
-  .frontend-masters, .codecademy {
+  .about-me-text-container {
+    line-height: 1.4rem;
+    flex-basis: 60%;
+  }
+
+  .about-me-text-container p{
+    padding-bottom: 0.5rem;
+  }
+ 
+  .about-me-image-container {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: end;
+    flex-basis: 40%;
+  } 
+
+  .cat-photo {
+    width: 100%;
+    height: auto;
+  }
+
+  #time-container {
+    font-weight: bold;
+  }
+
+  .frontend-masters, .codecademy, .color-project {
     font-weight: bold;
     transition-property: color;
     transition-duration: 0.3s;
   }
 
-  .frontend-masters:hover, .codecademy:hover {
+  .frontend-masters:hover, .codecademy:hover, .color-project {
     text-decoration: none;
   }
 
@@ -137,29 +160,28 @@
   .codecademy:hover {
     color:#1F3F53;
   }
-
-  .about-me-text-container {
-    line-height: 1.4rem;
+  .color-project:hover {
+    color: blue;
   }
 
-  .about-me-image-container {
-    display: flex;
-    flex-flow: column wrap;
-    text-align: end;
+  /* Projects section */
+
+ .project-list {
+    list-style: none;
+    padding: 0;
   }
 
-  #time-container {
-    font-weight: bold;
+  .project-list li {
+    padding: 0.7rem 1.5rem;
   }
 
-  /* Project section */
-
-  .project-list, li {
-    list-style-type: circle;
-    margin: 0.7vw;
-    padding-bottom: 0.5vw;
+  .project-list li:before {
+    content: "\f6be"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
   }
-
 
   /* Skills section */
 
@@ -209,7 +231,7 @@
   }
 
   .fa-envelope-square:hover {
-    color: rgb(95, 0, 0);
+    color: rgb(19, 105, 19);
   }
 
   /* Footer */

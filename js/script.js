@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(event) { 
+
+    // Displaying seconds passed from my birthday
+
     const timeContainer = document.getElementById("time-container");
     const BIRTH_DAY_DATE = new Date('April 24, 1995 10:00:00');
     const intlNumberFormatter = new Intl.NumberFormat("en-US");
@@ -9,11 +12,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
     );
             timeContainer.innerText = intlNumberFormatter.format(difference);
     }
-
     displaySeconds();
-
     setInterval(displaySeconds, 1000);
+    
+    // Change color of list project
 
+    const heart = document.querySelector(".fa-heart");
+
+    const randomColor = Math.floor(Math.random()*16777215).toString(16);
+    heart.style.color = "#" + randomColor;
+   
 });
 
 
