@@ -81,28 +81,16 @@
   }
 
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-weight: bold;
     margin: 1rem 0;
   }
-
 
   a:visited, a:link {
     color: black;
   }
 
-  a {
-    font-weight: bold;
-    transition-property: color;
-    transition-duration: 0.3s;
-
-  }
-
-  a:hover {
-    color:red;
-    text-decoration: none;
-  }
-
+ 
   /* Header Style */
   
   header {
@@ -124,12 +112,30 @@
     color: black;
   }
   
-  /* Main Style */
+  /* About Me Section */
   
   #about-me {
       display: flex;
       justify-content: space-between;
       padding: 1rem 0;
+  }
+
+  .frontend-masters, .codecademy {
+    font-weight: bold;
+    transition-property: color;
+    transition-duration: 0.3s;
+  }
+
+  .frontend-masters:hover, .codecademy:hover {
+    text-decoration: none;
+  }
+
+  .frontend-masters:hover {
+    color:#C02D28;
+  }
+
+  .codecademy:hover {
+    color:#1F3F53;
   }
 
   .about-me-text-container {
@@ -164,6 +170,48 @@
     padding: 1vw 0;
   }
 
+  .fa-html5:hover {
+    color: #E44D26;
+  }
+
+  .fa-css3-alt:hover {
+    color: #264DE4;
+  }
+
+  .fa-react:hover {
+    color: #00D1F7;
+  }
+
+  .fa-js:hover {
+    color: #F7E018;
+  }
+
+  .fa-git:hover {
+    color: #F34F29;
+  }
+
+  .fa-github:hover {
+    color:#0D2636;
+  }
+
+  /* Contact Section */
+
+  .contact-container {
+    font-size: 2rem;
+  }
+
+  .contact-container .fab,.fas {
+    padding-right: 4vw;
+  }
+
+  .fa-linkedin:hover {
+    color: #0A66C2;
+  }
+
+  .fa-envelope-square:hover {
+    color: rgb(95, 0, 0);
+  }
+
   /* Footer */
 
   footer {
@@ -171,6 +219,30 @@
     padding: 1vw;
   }
 
-  .heart {
+  .fa-heart {
+    font-size: 1.2rem;
     color:red;
+    animation: bounceIn 1s linear infinite alternate both ;
+    display: inline-block;
+    padding: 0;
   }
+
+  .fa-heart:hover{
+    animation-play-state: paused;
+  }
+
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+ 
