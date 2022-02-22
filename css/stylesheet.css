@@ -186,7 +186,7 @@
   /* Skills section */
 
   .skills-container {
-    font-size: 3.5rem;
+    font-size: 3rem;
     display: flex;
     justify-content: space-between;
     padding: 1vw 0;
@@ -231,7 +231,7 @@
   }
 
   .fa-envelope-square:hover {
-    color: rgb(19, 105, 19);
+    color:dodgerblue ;
   }
 
   /* Footer */
