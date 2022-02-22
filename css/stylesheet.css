@@ -149,7 +149,7 @@
     transition-duration: 0.3s;
   }
 
-  .frontend-masters:hover, .codecademy:hover, .color-project {
+  .frontend-masters:hover, .codecademy:hover, .color-project:hover {
     text-decoration: none;
   }
 
@@ -186,7 +186,7 @@
   /* Skills section */
 
   .skills-container {
-    font-size: 2rem;
+    font-size: 3.5rem;
     display: flex;
     justify-content: space-between;
     padding: 1vw 0;
@@ -219,7 +219,7 @@
   /* Contact Section */
 
   .contact-container {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .contact-container .fab,.fas {
