@@ -172,25 +172,7 @@ nav a:hover {
 .frontend-masters,
 .codecademy,
 .color-project {
-  transition: color 0.1s ease-out, font-weight 0.1s ease-out,
-    text-decoration 0.1s ease-out;
-}
-
-.frontend-masters:hover,
-.codecademy:hover,
-.color-project:hover {
-  font-weight: bold;
-  text-decoration: none;
-}
-.frontend-masters:hover {
-  color: #c02d28;
-}
-
-.codecademy:hover {
-  color: #1f3f53;
-}
-.color-project:hover {
-  color: blue;
+  text-decoration: underline;
 }
 
 /* Projects section */
