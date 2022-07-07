@@ -96,7 +96,7 @@ html {
 
 body {
   font-family: "Raleway", Arial Helvetica, sans-serif;
-  margin: 2vw 10vw;
+  margin: 1vw 15vw;
   padding: 1vw;
 }
 
@@ -115,7 +115,7 @@ a:link {
 
 header {
   display: inline-flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 100%;
   align-items: center;
 }
@@ -133,41 +133,38 @@ nav a:hover {
   color: black;
 }
 
-.brand {
-  margin: 0;
-  font-size: 3rem;
-  cursor: grab;
-  z-index: 10;
-}
-
 /* About Me Section */
 
-#about-me {
+.about-me-container {
   display: flex;
+  padding: 1rem 0;
   flex-wrap: wrap;
   flex-direction: row;
-  padding: 1rem 0;
 }
 
 .about-me-text-container {
-  line-height: 1.4rem;
   flex-basis: 60%;
+  line-height: 1.4rem;
 }
 
 .about-me-text-container p {
   padding-bottom: 0.5rem;
 }
 
-.about-me-image-container {
-  flex-basis: 35%;
-}
-.cat-photo {
-  height: auto;
+.about-me-photo {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#time-container {
-  font-weight: bold;
+.me-photo {
+  height: auto;
+  flex-shrink: 0;
+  width: 70%;
+  border-radius: 50%;
 }
+
 
 .frontend-masters,
 .codecademy,
