@@ -10,11 +10,15 @@
     padding: 1rem 0;
   }
 
-    .me-photo {
-        height: auto;
-        width: 50%;
-        border-radius: 50%;
-      }
+  .about-me-text-container {
+    color: red;
+  }
+
+  .me-photo {
+    height: auto;
+    width: 50%;
+    border-radius: 50%;
+  }
 }
 
 /*  Mobile Phones Landscape  */
