@@ -9,6 +9,12 @@
     display: block;
     padding: 1rem 0;
   }
+
+    .me-photo {
+        height: auto;
+        width: 50%;
+        border-radius: 50%;
+      }
 }
 
 /*  Mobile Phones Landscape  */

@@ -160,8 +160,7 @@ nav a:hover {
 
 .me-photo {
   height: auto;
-  flex-shrink: 0;
-  width: 70%;
+  width: 50%;
   border-radius: 50%;
 }
 
