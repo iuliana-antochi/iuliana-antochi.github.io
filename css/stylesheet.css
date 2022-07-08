@@ -160,16 +160,17 @@ nav a:hover {
 
 .me-photo {
   height: auto;
-  width: 50%;
+  width: 70%;
   border-radius: 50%;
-  border: 1px solid red;
+  border: 1px solid gainsboro;
 }
 
 
 .frontend-masters,
 .codecademy,
 .color-project {
-  text-decoration: underline;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /* Projects section */
