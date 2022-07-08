@@ -10,14 +10,11 @@
     padding: 1rem 0;
   }
 
-  .about-me-text-container {
-    color: red;
-  }
-
-  .me-photo {
-    height: auto;
-    width: 50%;
-    border-radius: 50%;
+  header {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
   }
 }
 
