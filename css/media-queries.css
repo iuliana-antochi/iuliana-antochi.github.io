@@ -111,7 +111,7 @@
   html {
     color: blue;
   }
-  .about-me-photo {
-    width: 10%;
+  .me-photo {
+    width: 50%;
   }
 }
