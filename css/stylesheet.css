@@ -141,7 +141,7 @@ nav a:hover {
 
 .about-me-container {
   display: flex;
-  padding: 1rem 0;
+  padding-top: 1rem;
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -164,7 +164,7 @@ nav a:hover {
 
 .me-photo {
   height: auto;
-  max-width: 50%;
+  width: 50%;
   border-radius: 50%;
   border: 1px solid gainsboro;
 }
@@ -191,10 +191,13 @@ nav a:hover {
 /* Skills section */
 
 .skills-container {
-  font-size: 3rem;
+  font-size: 2.5rem;
   display: flex;
-  justify-content: space-between;
-  padding: 1vw 0;
+  justify-content: flex-start;
+}
+
+.skills-container .fab {
+  padding-right: 3vw;
 }
 
 .fa-html5:hover {
@@ -224,12 +227,12 @@ nav a:hover {
 /* Contact Section */
 
 .contact-container {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .contact-container .fab,
 .fas {
-  padding-right: 4vw;
+  padding-right: 1.5vw;
 }
 
 .fa-linkedin:hover {
