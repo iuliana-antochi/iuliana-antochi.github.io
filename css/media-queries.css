@@ -19,7 +19,7 @@
 }
 
 /*  Mobile Phones Landscape  */
-@media screen and (orientation: landscape) and (min-device-width: 320px) and (max-device-width: 450px) {
+@media screen and (orientation: landscape) and (max-device-width: 480px) {
   body {
     margin: 3vw;
     padding: 3vw;
@@ -33,58 +33,6 @@
   .about-me-photo {
     width: 50%;
     justify-content: flex-start;
-  }
-}
-
-/*  Mobile Phones Portrait or Landscape  */
-@media screen and (max-device-width: 640px) {
-  body {
-    margin: 3vw;
-    padding: 3vw;
-  }
-
-  .about-me-container {
-    display: block;
-    padding: 1rem 0;
-  }
-}
-
-/*  iPhone 4+ Portrait or Landscape  */
-@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-  body {
-    margin: 3vw;
-    padding: 3vw;
-  }
-
-  .about-me-container {
-    display: block;
-    padding: 1rem 0;
-  }
-}
-
-/*  iPhone 5 Portrait or Landscape  */
-@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-  body {
-    margin: 3vw;
-    padding: 3vw;
-  }
-
-  .about-me-container {
-    display: block;
-    padding: 1rem 0;
-  }
-}
-
-/*  iPhone 6 and 6 plus Portrait or Landscape  */
-@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
-  body {
-    margin: 3vw;
-    padding: 3vw;
-  }
-
-  .about-me-container {
-    display: block;
-    padding: 1rem 0;
   }
 }
 
@@ -103,15 +51,5 @@
   .about-me-photo {
     width: 50%;
     justify-content: flex-start;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  html {
-    color: blue;
-  }
-  .me-photo {
-    width: 50%;
   }
 }
