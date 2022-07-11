@@ -30,10 +30,7 @@
     padding: 1rem 0;
   }
 
-  .about-me-photo {
-    width: 50%;
-    justify-content: flex-start;
-  }
+
 }
 
 /*  Tablets Portrait or Landscape  */
@@ -48,8 +45,5 @@
     padding: 1rem 0;
   }
 
-  .about-me-photo {
-    width: 50%;
-    justify-content: flex-start;
-  }
 }
+
