@@ -18,3 +18,4 @@ const x = Math.floor(size*Math.random())
 console.log(x)
 console.log(imgs[x])
 document.getElementById('changing-photo').src = imgs[x];
+
