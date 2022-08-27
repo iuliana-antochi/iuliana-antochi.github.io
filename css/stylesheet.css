@@ -164,9 +164,7 @@ nav a:hover {
 
 .avatar-photo {
   height: auto;
-  width: 50%;
-  border-radius: 50%;
-  border: 1px solid gainsboro;
+  width: 100%;
 }
 
 /* Projects section */
