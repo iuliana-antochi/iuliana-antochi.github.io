@@ -10,13 +10,6 @@
     padding: 1rem 0;
   }
 
-  header {
-    display: inline-flex;
-    justify-content: flex-start;
-    width: 100%;
-    align-items: center;
-  }
-
 }
 
 /*  Mobile Phones Landscape  */
